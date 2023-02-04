@@ -1,0 +1,35 @@
+.hot-card{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    transition: all 0.5s;
+    cursor: pointer;
+    /* flex-wrap: wrap;  */
+    margin: 0.7vmax;
+    flex-direction: column;
+    width: 31%;
+    background-color: white;
+}
+
+.hot-card> img{
+    width: 70%;
+}
+
+.hot-card> p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    color: rgb(85, 83, 83);
+}
+
+.hot-card> span{
+    color: rgb(255, 94, 36);
+    margin: -1vmax 0 1vmax 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hot-card:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0pc 6px 15px rgba(53, 53, 53, 0.363);
+
+}

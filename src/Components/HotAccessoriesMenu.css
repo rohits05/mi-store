@@ -1,0 +1,30 @@
+.hot-menu{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 90vmax;
+    margin: auto;
+    /* align-items: center; */
+
+}
+
+div{
+
+    display: block;
+    /* float: left; */
+}
+
+.hot-menu> div:first-child> img{
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 22vw;
+}
+
+.hot-menu> div:first-child> img:hover{
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+    transform: translateY(-0.4vmax);
+}
+
+.hot-menu> div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+}

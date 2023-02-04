@@ -1,0 +1,37 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: darkgrey; */
+    /* font-family: ProximaNova,Arial,Sans-serif; */
+    font-size: 14px;
+    font-weight: 100;
+    background-color: white;
+    text-transform: uppercase;
+    line-height: 19px;
+    /* -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0; */
+    margin-top: 14px;
+    /* box-shadow: 5px 7px 950px 0px #808080 ; */
+}
+
+.heading > div{
+    background-color: rgba(124, 124, 124, 0.274);
+    height: 0.3px;
+    font-weight: lighter;
+    
+    width: 12vw;
+}
+
+.heading p {
+    /* padding: 0px 28px 0px 28px; */
+    margin: 3vmax;
+    font-size: 2vmax;
+    /* background-color: white; */
+    
+    color: rgb(77, 77, 77);
+    font-weight: lighter;
+    /* font-family: ProximaNova,Arial,Sans-serif; */
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+}

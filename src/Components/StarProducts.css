@@ -1,0 +1,33 @@
+.star{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* width: 100%; */
+    align-items: center;
+    margin: 1vmax 2vmax;
+    padding: 2px 5px 2px 5px;
+    gap: 1.4rem;
+    /* background-color: white; */
+    /* width: fit-content; */
+    flex: 1;
+    /* flex-direction: row; */
+}
+
+.star>div:last-child{
+    
+    display: flex;
+   
+    flex-wrap: wrap;
+    gap: 0.45rem; 
+    /* margin-bottom: 2px; */
+    width: 45%;
+    margin-bottom: 5px;
+}
+
+.star img{
+    transition: all 0.5s;
+}
+
+.star img:hover{
+    box-shadow: 6px 6px 19px rgba(53, 53 , 53 , 0.363);
+}

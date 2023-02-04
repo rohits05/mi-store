@@ -1,0 +1,27 @@
+.ha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 90px -90px 1000px 9px rgb(225, 225, 225);
+    gap: 2rem;
+}
+
+.halink{
+    text-decoration: none;
+    color: rgb(94,94,94);
+    display: flex;
+    justify-content: center;
+
+    /* gap: 3rem; */
+    margin: 1vmax;
+    padding: 0.5vmax 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.halink:hover{
+    text-decoration: none;
+    color: rgb(255, 94, 35);
+    border-bottom: 1px solid orangered;
+    transition: all 0.5s;
+}
